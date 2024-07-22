@@ -1,6 +1,3 @@
-# Web development: домашние задание 3 (Python)
-
-```python
 # pip install sqlalchemy
 
 from sqlalchemy import (
@@ -108,5 +105,3 @@ for category in all_categories:
     print(category)
     for product in category.products:
         print(f"\t{product}")
-
-```

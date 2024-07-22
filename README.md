@@ -109,4 +109,5 @@ for category in all_categories:
     for product in category.products:
         print(f"\t{product}")
 
+session.close()
 ```
